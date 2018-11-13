@@ -9,6 +9,10 @@
 // STYLE OVERRIDES TO TARGETX's STYLESHEET:
 // ========================================
 
+.wFormContainer form {
+  line-height: 1 !important;
+}
+
 p.supportInfo {
   display: none !important; // Hides an empty paragraph that just makes the form longer
 }

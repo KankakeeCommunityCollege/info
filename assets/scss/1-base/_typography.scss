@@ -384,6 +384,7 @@ p.general-p {
 .typography__register-h4 {
   font-family: $oswaldfont-stack;
   font-size: 1.6rem;
+  margin-bottom: .5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -395,6 +396,7 @@ p.general-p {
 @media screen and (min-width: 1200px) {
   .typography__register-h4 {
     font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -458,18 +460,12 @@ p.general-p {
   font-size: 2rem;
   font-weight: $oswaldfont-weight-regular;
   letter-spacing: .03rem;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .typography__register--h5--black {
     font-size: 2.1rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .typography__register--h5--black {
-    margin-bottom: 60px;
   }
 }
 
