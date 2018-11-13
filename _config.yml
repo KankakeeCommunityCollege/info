@@ -29,6 +29,9 @@ future: true
 # Build settings
 markdown: kramdown
 
+include:
+  - "_schedule.txt"
+
 exclude:
   - "gulpfile.js"
   - "node_modules"
