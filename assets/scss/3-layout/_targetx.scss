@@ -64,3 +64,11 @@ p.supportInfo {
     margin-bottom: .05rem !important; // overrides reset's label {margin-bottom: ...} to tighten up form labels
   }
 }
+
+#tfa_1178-D {
+  max-width: 100% !important; // form selections that were wider than the rest
+}
+
+#tfa_1182-D {
+  max-width: 100% !important; // form selections that were wider than the rest
+}
