@@ -2,15 +2,15 @@
 // ========================================
 
 .targetx__wrapper {
-  margin-top: -35px;
-  z-index: -1;
+  margin-top: -35px !important;
+  z-index: -1 !important;
 }
 
 // STYLE OVERRIDES TO TARGETX's STYLESHEET:
 // ========================================
 
 p.supportInfo {
-  display: none; // Hides an empty paragraph that just makes the form longer
+  display: none !important; // Hides an empty paragraph that just makes the form longer
 }
 
 @media screen and (min-width: 1200px) {
@@ -25,7 +25,14 @@ p.supportInfo {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .wForm div > div.oneField {
+    margin-top: .05rem !important; // Makes the spacing between form questions tighter/closer-together
+  }
+}
+
 .wFormContainer {
+  // Adjust the left and right padding of the form
   padding-left: 5px !important;
   padding-right: 5px !important;
 }
@@ -33,5 +40,27 @@ p.supportInfo {
 @media screen and (min-width: 1600px) {
   .wFormContainer {
     padding: 1rem 2rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wFormContainer {
+    margin-bottom: 0 !important;
+  }
+}
+
+#tfa_749 {
+  // align radio buttons w/ text's baseline
+  margin-top: -5px !important; // move the 2 inline radio buttons up a little
+}
+
+#tfa_749-L {
+  // align radio buttons w/ text's baseline
+  margin-top: 2px !important; // move the radio's label down a little
+}
+
+@media screen and (min-width: 1200px) {
+  .wForm .preField {
+    margin-bottom: .05rem !important; // overrides reset's label {margin-bottom: ...} to tighten up form labels
   }
 }

@@ -292,44 +292,44 @@ p.general-p {
   font-family: $secondaryfont-weight-bold;
 }
 
-.typography__register--h2 {
-  color: $primary-red;
-  font-family: eurostile, sans-serif;
+.typography__info--h2 {
+  color: $white;
+  font-family: $oswaldfont-stack;
   font-size: 2.4rem;
   font-weight: $oswaldfont-weight-boldish;
   letter-spacing: .03rem;
   position: relative;
   top: 30%;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
 }
 
 @media screen and (min-width: 400px) {
-  .typography__register--h2 {
+  .typography__info--h2 {
     font-size: 3rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .typography__register--h2 {
+  .typography__info--h2 {
     font-size: 5.2rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .typography__register--h2 {
-    font-size: 6rem;
+  .typography__info--h2 {
+    font-size: 4rem;
   }
 }
 
 @media screen and (min-width: 1800px) {
-  .typography__register--h2 {
-    font-size: 6.6rem;
+  .typography__info--h2 {
+    font-size: 4rem;
   }
 }
 
-.typography__register--h3 {
-  color: $primary-blue;
-  font-family: eurostile, sans-serif;
+.typography__info--h3 {
+  color: $white;
+  font-family: $oswaldfont-stack;
   font-size: 1.2rem;
   font-weight: $oswaldfont-weight-boldish;
   letter-spacing: .03rem;
@@ -338,28 +338,28 @@ p.general-p {
 }
 
 @media screen and (min-width: 400px) {
-  .typography__register--h3 {
+  .typography__info--h3 {
     font-size: 1.45rem;
     top: 30.5%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .typography__register--h3 {
+  .typography__info--h3 {
     font-size: 2.5rem;
     top: 30%;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .typography__register--h3 {
-    font-size: 2.6rem;
+  .typography__info--h3 {
+    font-size: 1.8rem;
     top: 30%;
   }
 }
 
 @media screen and (min-width: 1800px) {
-  .typography__register--h3 {
+  .typography__info--h3 {
     font-size: 2.7rem;
     top: 30%;
   }
@@ -452,14 +452,42 @@ p.general-p {
   }
 }
 
+.typography__register--h5--black {
+  color: $black;
+  font-family: $oswaldfont-stack;
+  font-size: 2rem;
+  font-weight: $oswaldfont-weight-regular;
+  letter-spacing: .03rem;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .typography__register--h5--black {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .typography__register--h5--black {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .typography__register-h5--black {
+    font-size: 3rem;
+  }
+}
+
 .typography__register--student-p {
   color: $black;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin-top: 15px;
 }
 
 .typography__register--img-cap {
+  font-size: 1.35rem;
   font-weight: 600;
   display: block;
 }
@@ -503,7 +531,7 @@ p.general-p {
 }
 
 .typography__larger-p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .typography__register--thank-you {
@@ -521,8 +549,11 @@ p.general-p {
 @media screen and (min-width: 768px) {
   .typography__register--thank-you {
     font-size: 2.4rem;
+    margin-left: 100px;
+    margin-top: -10px;
     &--message {
       font-size: 1.6rem;
+      margin-left: 95px;
     }
   }
 }
@@ -536,5 +567,6 @@ p.general-p {
 @media screen and (min-width: 1800px) {
   .typography__register--thank-you {
     font-size: 3rem;
+    margin-top: -15px;
   }
 }
