@@ -30,9 +30,6 @@ future: true
 # Build settings
 markdown: kramdown
 
-plugins:
-  - jekyll-cloudcannon-schedule
-
 include:
   - "_schedule.txt"
 
