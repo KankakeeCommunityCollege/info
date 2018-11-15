@@ -312,18 +312,19 @@ p.general-p {
 @media screen and (min-width: 768px) {
   .typography__info--h2 {
     font-size: 5.2rem;
+    top: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .typography__info--h2 {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 
 @media screen and (min-width: 1800px) {
   .typography__info--h2 {
-    font-size: 4rem;
+    font-size: 7rem;
   }
 }
 
@@ -337,45 +338,59 @@ p.general-p {
   top: 31%;
 }
 
+@media screen and (min-width: 360px) {
+  .typography__info--h3 {
+    right: -.25rem;
+  }
+}
+
 @media screen and (min-width: 400px) {
   .typography__info--h3 {
     font-size: 1.45rem;
     top: 30.5%;
+    right: -.5rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .typography__info--h3 {
     font-size: 2.5rem;
-    top: 30%;
+    top: 0;
+    right: 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .typography__info--h3 {
-    font-size: 1.8rem;
-    top: 30%;
+    font-size: 2.6rem;
   }
 }
 
 @media screen and (min-width: 1800px) {
   .typography__info--h3 {
-    font-size: 2.7rem;
-    top: 30%;
+    font-size: 3rem;
   }
 }
 
 .typography__register--caption {
+  bottom: 15px;
   color: $white;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.25));
   font-family: $oswaldfont-stack;
   font-size: 1rem;
   font-weight: $oswaldfont-weight-boldish;
   letter-spacing: .07rem;
   position: absolute;
-  bottom: 15px;
+  right: 25px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .typography__register--caption {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   .typography__register--caption {
     font-size: 1.2rem;
   }
@@ -402,7 +417,8 @@ p.general-p {
 
 @media screen and (min-width: 1800px) {
   .typography__register-h4 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
+    margin-bottom: 1.8rem;
   }
 }
 

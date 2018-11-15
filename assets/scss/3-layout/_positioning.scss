@@ -89,6 +89,12 @@
   }
 }
 
+@media screen and (min-width: 1800px) {
+  .positioning__accordian--padding {
+    margin-top: 90px;
+  }
+}
+
 .positioning__accordian-marg {
   margin-top: 75px;
 }
@@ -166,7 +172,12 @@
 
 .positioning__register--idfpr-img {
   width: 330px;
-  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .positioning__register--idfpr-img {
+    margin-top: 60px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -187,6 +198,24 @@
 
 .positioning__heading--row {
   margin-top: 35%;
+}
+
+@media screen and (min-width: 768px) {
+  .positioning__heading--row {
+    margin-top: 26%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .positioning__heading--row {
+    margin-top: 35%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .positioning__heading--row {
+    margin-top: 25%;
+  }
 }
 
 .positioning__check-svg {
