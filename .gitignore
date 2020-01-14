@@ -32,17 +32,14 @@ _site
 .sass-cache
 .jekyll-metadata
 
+### Nodejs Stuffs ###
 # Ignore node modules
 node_modules/
+# Lock file. Prevents Win/Mac/Linux discrepencies.
+package-lock.json
 
 # Ignore gem lock to avoid mac/windows discrepencies
 Gemfile.lock
 
-# Ignore adobe directory containing working illustrator, photoshop,
-assets/adobe/
-assets/adobe/*
-/adobe/
-adobe/*
-
-# Yarn error log
-yarn-error.log
+# Jekyll 4's caching dir
+.jekyll-cache/
