@@ -292,86 +292,6 @@ p.general-p {
   font-family: $secondaryfont-weight-bold;
 }
 
-.typography__info--h2 {
-  color: $white;
-  font-family: $oswaldfont-stack;
-  font-size: 2.4rem;
-  font-weight: $oswaldfont-weight-boldish;
-  letter-spacing: .03rem;
-  position: relative;
-  top: 30%;
-  margin-bottom: -5px;
-}
-
-@media screen and (min-width: 400px) {
-  .typography__info--h2 {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .typography__info--h2 {
-    font-size: 5.2rem;
-    top: 0;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .typography__info--h2 {
-    font-size: 6rem;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .typography__info--h2 {
-    font-size: 7rem;
-  }
-}
-
-.typography__info--h3 {
-  color: $white;
-  font-family: $oswaldfont-stack;
-  font-size: 1.2rem;
-  font-weight: $oswaldfont-weight-boldish;
-  letter-spacing: .03rem;
-  position: relative;
-  top: 31%;
-}
-
-@media screen and (min-width: 360px) {
-  .typography__info--h3 {
-    right: -.25rem;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .typography__info--h3 {
-    font-size: 1.45rem;
-    top: 30.5%;
-    right: -.5rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .typography__info--h3 {
-    font-size: 2.5rem;
-    top: 0;
-    right: 0;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .typography__info--h3 {
-    font-size: 2.6rem;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .typography__info--h3 {
-    font-size: 3rem;
-  }
-}
-
 .typography__register--caption {
   bottom: 15px;
   color: $white;
@@ -419,27 +339,6 @@ p.general-p {
   .typography__register-h4 {
     font-size: 2.4rem;
     margin-bottom: 1.8rem;
-  }
-}
-
-.typography__phone--span {
-  color: $white;
-  font-family: $oswaldfont-stack;
-  font-size: 1.3rem;
-  font-weight: $oswaldfont-weight-boldish;
-  letter-spacing: .07rem;
-  white-space: nowrap;
-}
-
-@media screen and (min-width: 768px) {
-  .typography__phone--span {
-    font-size: 1.45rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .typography__phone--span {
-    font-size: 1.5rem;
   }
 }
 
