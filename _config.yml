@@ -44,9 +44,10 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "gulpconfig.yml"
-  - "/docs/"
-  - "yarn.lock"
-  - "/assets/adobe/"
+  - "siteicon.png"
+  - "webpack.config.js"
+  - "install.sh"
+  - "gulp-tasks/"
 
 uploads_dir: # specifies the default uploads directory for CloudCannon
   - "uploads/"
