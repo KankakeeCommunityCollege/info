@@ -1,6 +1,7 @@
 title: "Kankakee Community College"
 googole_tag-key: 	GTM-PPXHLQ3
 url: https://info.kcc.edu
+public-url: https://info.kcc.edu
 theme: kcc-gem-theme
 timezone: America/Chicago
 collections:
