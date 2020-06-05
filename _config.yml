@@ -3,6 +3,7 @@ google-tag_key: GTM-PPXHLQ3
 url: https://info.kcc.edu
 public-url: https://info.kcc.edu
 theme: kcc-gem-theme
+# Build
 timezone: America/Chicago
 collections:
   posts:
