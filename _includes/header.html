@@ -1,0 +1,31 @@
+{% comment %}
+<!-- Move this file into `_includes` to override the theme's header.html -->
+{% endcomment %}
+<header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-8 header__bg positioning__offset-global-nav" {% if page.background_image %}style="background-image: url('{{ page.background_image }}');"{% endif %}>
+          <div class="row positioning__heading--row">
+            <div class="col-5">&nbsp;</div>
+            <div class="col-7 positioning__col--offset text-center">
+              <h2 class="typography__register--h2 typography--text-shadow">{{ page.main_heading }}</h2>
+              <h3 class="typography__register--h3 typography--text-shadow">{{ page.sub_heading }}</h3>  
+            </div>
+          </div>
+          <span class="typography__register--caption typography--text-shadow">Adrian Benfield, Class of 2017</span>
+        </div>
+        <div class="col-xl-4 positioning__form--margins">
+          <h4 id="page-top" class="typography__register-h4 text-center">{{ page.form_heading }}</h4>
+          {%- comment -%}
+          <!--
+            <h5 class="typography__register-h5 text-center">Classes Begin Jan. 7th</h5>
+          <h5 class="typography__register-h5 text-center">Seats Are Filling Fast</h5>
+          -->
+          {%- endcomment -%}
+          <div class="targetx__wrapper">
+          {% include targetx-form.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
