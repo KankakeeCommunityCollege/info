@@ -1,14 +1,15 @@
 ---
 title: 404
-layout: default
+layout: landing
 permalink: /404.html
 baseurl: /
 ---
 
-<section class="position__offset-fixed-nav">
-  <div class="container position">
+<main class="positioning__offset-global-nav error__main">
+  <div class="container">
     <div class="row">
       <div class="col">
+        {% include breadcrumbs.html %}
         <h2 class="error__main-heading">Whoops! (404 Error)</h2>
 
         <h3 class="error__sub-heading">Everyone at KCC wants to help in your moment of need.</h3>
@@ -18,8 +19,11 @@ baseurl: /
           <li>Check that the address is correct.</li>
           <li>If you clicked on a link, it must be out of date.</li>
         </ol>
-        <p>If neither helps, try <a class="btn btn-primary" href="http://www.kcc.edu/Pages/Home.aspx">KCC’s home page</a> or a <a class="btn btn-primary" href="http://www.kcc.edu/Search/default.aspx">search</a>.&#8203;</p>
+        <p>If neither helps, try <a
+            class="btn btn-primary"
+            href="https://www.kcc.edu"
+          >KCC&apos;s home page</a>.</p>
       </div>
     </div>
   </div>
-</section>
+</main>

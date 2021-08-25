@@ -1,17 +1,20 @@
 ---
-layout: landing-simple
+layout: landing
 baseurl: '../'
 title: Thank You
 description: ''
+thank-you_main-heading: 'Thank you for your interest in&nbsp;KCC!'
+thank-you_secondary-heading: 'You’ll receive an automatic email, and then a personalized reply within two business&nbsp;days.'
 ---
 
-<div class="container positioning__offset-global-nav">
+<main class="container positioning__offset-global-nav thank-you__main">
   <div class="row">
     <div class="col">
+      {% include breadcrumbs.html %}
       <div class="jumbotron text-center text-md-left" style="margin-top:45px">
-        {% include check-mark.svg %}&nbsp;<h3 class="typography__register--thank-you text-left">Thank you for your interest&nbsp;in&nbsp;KCC!</h3>
-        <h6 class="typography__register--thank-you--message text-left" style="padding-left:1rem">You’ll receive an automatic email, and then a personalized reply within two business days.</h6>
+        {% include svg/check-mark.html %}&nbsp;<h3 class="typography__register--thank-you text-left">{{ page.thank-you_main-heading }}</h3>
+        <h6 class="typography__register--thank-you--message text-left" style="padding-left:1rem">{{ page.thank-you_secondary-heading }}</h6>
       </div>
     </div>
   </div>
-</div>
+</main>

@@ -1,5 +1,1 @@
-import test from './test.js';
-
-document.addEventListener('DOMContentLoaded', function() {
-  test();
-});
+import '../../scss/main.scss';
