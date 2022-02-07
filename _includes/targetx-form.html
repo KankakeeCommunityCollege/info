@@ -1,98 +1,95 @@
 <!-- TargetX form code -->
-<!-- FORM: BODY SECTION --> 
+<!-- FORM: BODY SECTION -->
 <div class="wFormContainer" style="max-width: 530px; width:auto;">
   <div class="wFormHeader"></div>
   <style type="text/css">
-              #tfa_381,
-              *[id^="tfa_381["] {
-                  width: 330px !important;
-              }
-              #tfa_381-D,
-              *[id^="tfa_381["][class~="field-container-D"] {
-                  width: auto !important;
-              }
-          
-              #tfa_381,
-              *[id^="tfa_381["] {
-                  height: 130px
-              }
-              #tfa_381-D,
-              *[id^="tfa_381["][class~="field-container-D"] {
-                  height: auto !important;
-              }
-              #tfa_381-L,
-              label[id^="tfa_381["],
-              *[id^="tfa_381["][id$="-L"] {
-                  height: auto !important;
-              }
-          </style><div class=""><div class="wForm" id="217758-WRPR" dir="ltr">
-<div class="codesection" id="code-217758">   <script type="text/">
-
-    $(document).ready(function() {
-      makeSchoolpicker("369");
-      verifyFieldMatch(20,21) ;
-    });
-  https://www.kcc.force.com/form?formid=217741
+    #tfa_381,
+    *[id^="tfa_381["] {
+        width: 330px !important;
+    }
+    #tfa_381-D,
+    *[id^="tfa_381["][class~="field-container-D"] {
+        width: auto !important;
+    }
+    #tfa_381,
+    *[id^="tfa_381["] {
+        height: 130px
+    }
+    #tfa_381-D,
+    *[id^="tfa_381["][class~="field-container-D"] {
+        height: auto !important;
+    }
+    #tfa_381-L,
+    label[id^="tfa_381["],
+    *[id^="tfa_381["][id$="-L"] {
+        height: auto !important;
+    }
+</style>
+<div class="">
+  <div class="wForm" id="217758-WRPR" dir="ltr">
+  <div class="codesection" id="code-217758">
+    <script type="text/javascript">
+      $(document).ready(function() {
+        makeSchoolpicker("369");
+        verifyFieldMatch(20,21) ;
+      });
+      https://www.kcc.force.com/form?formid=217741
+    </script>
+    <style>
+    .wFormContainer .wForm .secondaryAction, .wFormContainer .wForm .primaryAction, .wFormContainer .wForm .wfPageNextButton, .wFormContainer .wForm .wfPagePreviousButton {
+      background-color: #4579fb !important;
+      border-color: #4579fb !important;
+      width: 100%;
+    }
+    .wForm .actions {
+    text-align: center;
+    }
+    .wFormContainer .wFormHeader {
+      height: 0rem !important;
+    }
+    .wFormContainer {
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+    .wFormContainer .inputWrapper textarea,.wFormContainer .inputWrapper input,.wFormContainer .inputWrapper select {
+    border: 1px solid #333333 !important;
+    }
+    .wFormContainer .inputWrapper input[type='text'], .wFormContainer .inputWrapper input[type='password'] {
+    width: 31em !important;
+    }
+    #tfa_381, *[id^="tfa_381["] {
+    width: 31rem !important;
+    }
+    .wForm input[type=email], .wForm input[type=number], .wForm input[type=text], .wForm input[type=time], .wForm input[type=url], .wForm select, .wForm textarea {
+    width: 31rem;
+    }
+    .wForm form .vertical>.choiceGroup>.oneChoice, .wForm form .vertical>.oneChoice {
+    margin: 0 0 0px !important;
+    }
+    .wForm .reqMark:after {
+    content: "";
+    color: red;
+    font-size: 90%;
+    }
+    .wFormContainer .supportInfo {
+    display: none;
+    }
+  </style>
+  </div>
+  <form method="post" action="https://kcc.tfaforms.net/api_v2/workflow/processor" class="hintsBelow labelsLeftAligned" id="217758" role="form">
+  <div class="oneField field-container-D  labelsRemoved  " id="tfa_11-D"><div class="inputWrapper"><input aria-required="true" type="text" id="tfa_11" name="tfa_11" value="" placeholder="First Name" maxlength="40" title="First Name " class="required"></div></div>
+  <div class="oneField field-container-D  labelsRemoved  " id="tfa_12-D"><div class="inputWrapper"><input aria-required="true" type="text" id="tfa_12" name="tfa_12" value="" placeholder="Last Name" maxlength="80" title="Last Name " class="required"></div></div>
+  <div class="oneField field-container-D  labelsRemoved  " id="tfa_20-D"><div class="inputWrapper"><input aria-required="true" type="text" id="tfa_20" name="tfa_20" value="" placeholder="Email" maxlength="80" title="Email" class="validate-email calc-emailA required"></div></div>
+  <div class="oneField field-container-D  labelsRemoved  " id="tfa_374-D">
+  <div class="inputWrapper"><input type="text" id="tfa_374" name="tfa_374" value="" placeholder="Phone" autoformat="(###) ###-####" title="Phone " class="validate-custom /^([\(]{1}[0-9]{3}[\)]{1}[\.| |\-]{0,1}|^[0-9]{3}[\.|\-| ]?)?[0-9]{3}(\.|\-| )?[0-9]{4}$/"></div>
+  <script type="text/javascript">
+    if(typeof wFORMS != 'undefined') {
+      if(wFORMS.behaviors.validation) {
+        wFORMS.behaviors.validation.rules['customtfa_374'] =  { selector: '*[id="tfa_374"]', check: 'validateCustom'};
+        wFORMS.behaviors.validation.messages['customtfa_374'] = "Please enter a US Phone number";
+      }
+    }
   </script>
-
-<style>
-.wFormContainer .wForm .secondaryAction, .wFormContainer .wForm .primaryAction, .wFormContainer .wForm .wfPageNextButton, .wFormContainer .wForm .wfPagePreviousButton {
-  background-color: #4579fb !important;
-  border-color: #4579fb !important;
-  width: 100%; 
-}
-.wForm .actions {
-text-align: center;
-}
-.wFormContainer .wFormHeader {
-  height: 0rem !important;
-}
-.wFormContainer {
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-}
-.wFormContainer .inputWrapper textarea,.wFormContainer .inputWrapper input,.wFormContainer .inputWrapper select {
-border: 1px solid #333333 !important;
-}
-
-.wFormContainer .inputWrapper input[type='text'], .wFormContainer .inputWrapper input[type='password'] {
-width: 31em !important;
-}
-
-#tfa_381, *[id^="tfa_381["] {
-width: 31rem !important;
-}
-
-.wForm input[type=email], .wForm input[type=number], .wForm input[type=text], .wForm input[type=time], .wForm input[type=url], .wForm select, .wForm textarea {
-width: 31rem;
-}
-
-.wForm form .vertical>.choiceGroup>.oneChoice, .wForm form .vertical>.oneChoice {
-margin: 0 0 0px !important;
-}
-.wForm .reqMark:after {
-content: "";
-color: red;
-font-size: 90%;
-}
-
-.wFormContainer .supportInfo {
-display: none;
-}
-</style></div>
-<form method="post" action="https://kcc.tfaforms.net/responses/processor" class="hintsBelow labelsLeftAligned" id="217758" role="form">
-<div class="oneField field-container-D  labelsRemoved  " id="tfa_11-D"><div class="inputWrapper"><input aria-required="true" type="text" id="tfa_11" name="tfa_11" value="" placeholder="First Name" maxlength="40" title="First Name " class="required"></div></div>
-<div class="oneField field-container-D  labelsRemoved  " id="tfa_12-D"><div class="inputWrapper"><input aria-required="true" type="text" id="tfa_12" name="tfa_12" value="" placeholder="Last Name" maxlength="80" title="Last Name " class="required"></div></div>
-<div class="oneField field-container-D  labelsRemoved  " id="tfa_20-D"><div class="inputWrapper"><input aria-required="true" type="text" id="tfa_20" name="tfa_20" value="" placeholder="Email" maxlength="80" title="Email" class="validate-email calc-emailA required"></div></div>
-<div class="oneField field-container-D  labelsRemoved  " id="tfa_374-D">
-<div class="inputWrapper"><input type="text" id="tfa_374" name="tfa_374" value="" placeholder="Phone" autoformat="(###) ###-####" title="Phone " class="validate-custom /^([\(]{1}[0-9]{3}[\)]{1}[\.| |\-]{0,1}|^[0-9]{3}[\.|\-| ]?)?[0-9]{3}(\.|\-| )?[0-9]{4}$/"></div>
-<script type="text/">
-                      if(typeof wFORMS != 'undefined') {
-                          if(wFORMS.behaviors.validation) {
-                              wFORMS.behaviors.validation.rules['customtfa_374'] =  { selector: '*[id="tfa_374"]', check: 'validateCustom'};
-                              wFORMS.behaviors.validation.messages['customtfa_374'] = "Please enter a US Phone number";
-                          }
-                      }</script>
 </div>
 <div class="oneField field-container-D    " id="tfa_749-D" role="radiogroup" aria-labelledby="tfa_749-L" data-tfa-labelledby="-L tfa_749-L">
 <label id="tfa_749-L" class="label preField ">Is it okay to text you?</label><div class="inputWrapper"><span id="tfa_749" class="choices horizontal "><span class="oneChoice"><input type="radio" value="tfa_750" class="" id="tfa_750" name="tfa_749" aria-labelledby="tfa_750-L" data-tfa-labelledby="tfa_749-L tfa_750-L"><label class="label postField" id="tfa_750-L" for="tfa_750"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_751" class="" id="tfa_751" name="tfa_749" aria-labelledby="tfa_751-L" data-tfa-labelledby="tfa_749-L tfa_751-L"><label class="label postField" id="tfa_751-L" for="tfa_751"><span class="input-radio-faux"></span>No</label></span></span></div>
@@ -156,10 +153,10 @@ display: none;
 <div class="oneField field-container-D  labelsAbove  " id="tfa_823-D">
 <label id="tfa_823-L" class="label preField " for="tfa_823">Health Careers Program Interest</label><br><div class="inputWrapper"><select id="tfa_823" name="tfa_823" data-condition="`#tfa_805`" title="Health Careers Program Interest" class=""><option value="">Please select...</option>
 <option value="tfa_1006" id="tfa_1006" class="">Coding Specialist Advanced Certificate</option>
-<option value="tfa_1016" id="tfa_1016" class="">Emergency Medical Technician - Basic (EMT-B) Certificate *</option>
+<option value="tfa_1016" id="tfa_1016" class="">Emergency Medical Technician - Basic (EMT-B) Certificate </option>
 <option value="tfa_1017" id="tfa_1017" class="">Emergency Medical Technician - Paramedic (EMT-P) Advanced Certificate</option>
 <option value="tfa_1217" id="tfa_1217" class="">Exercise Science A.A. (Transfer)</option>
-<option value="tfa_1007" id="tfa_1007" class="">Medical Laboratory Assistant Certificate *</option>
+<option value="tfa_1007" id="tfa_1007" class="">Medical Laboratory Assistant Certificate </option>
 <option value="tfa_1008" id="tfa_1008" class="">Medical Laboratory Technology A.A.S.</option>
 <option value="tfa_1009" id="tfa_1009" class="">Medical Laboratory Technology Advanced Placement Sequence (Option 1) A.A.S.</option>
 <option value="tfa_1013" id="tfa_1013" class="">Nursing - Practical Advanced Certificate</option>
@@ -167,7 +164,7 @@ display: none;
 <option value="tfa_1011" id="tfa_1011" class="">Nursing - Registered A.A.S.</option>
 <option value="tfa_1014" id="tfa_1014" class="">Nursing Assistant Certificate</option>
 <option value="tfa_1015" id="tfa_1015" class="">Paramedic A.A.S.</option>
-<option value="tfa_1010" id="tfa_1010" class="">Phlebotomy Certificate *</option>
+<option value="tfa_1010" id="tfa_1010" class="">Phlebotomy Certificate </option>
 <option value="tfa_1018" id="tfa_1018" class="">Physical Therapist Assistant A.A.S.</option>
 <option value="tfa_1019" id="tfa_1019" class="">Radiography A.A.S.</option>
 <option value="tfa_1020" id="tfa_1020" class="">Respiratory Therapist A.A.S.</option>
@@ -208,18 +205,18 @@ display: none;
 </div>
 <div class="oneField field-container-D  labelsAbove  " id="tfa_866-D">
 <label id="tfa_866-L" class="label preField " for="tfa_866">Business Program Interest</label><br><div class="inputWrapper"><select id="tfa_866" name="tfa_866" data-condition="`#tfa_808`" title="Business Program Interest" class=""><option value="">Please select...</option>
-<option value="tfa_1051" id="tfa_1051" class="">Accounting I Certificate *</option>
+<option value="tfa_1051" id="tfa_1051" class="">Accounting I Certificate </option>
 <option value="tfa_1052" id="tfa_1052" class="">Accounting II Certificate</option>
 <option value="tfa_1049" id="tfa_1049" class="">Business A.A.S.</option>
 <option value="tfa_1048" id="tfa_1048" class="">Business A.S. (Transfer)</option>
 <option value="tfa_1050" id="tfa_1050" class="">Business Advanced Certificate</option>
 <option value="tfa_1053" id="tfa_1053" class="">Business Certificate</option>
-<option value="tfa_1054" id="tfa_1054" class="">Business Management Certificate *</option>
-<option value="tfa_1055" id="tfa_1055" class="">Business Marketing Certificate *</option>
+<option value="tfa_1054" id="tfa_1054" class="">Business Management Certificate </option>
+<option value="tfa_1055" id="tfa_1055" class="">Business Marketing Certificate </option>
 <option value="tfa_1216" id="tfa_1216" class="">Hospitality Operations Certificate</option>
-<option value="tfa_1056" id="tfa_1056" class="">Human Resources Certificate *</option>
+<option value="tfa_1056" id="tfa_1056" class="">Human Resources Certificate </option>
 <option value="tfa_1058" id="tfa_1058" class="">Office Professional A.A.S.</option>
-<option value="tfa_1057" id="tfa_1057" class="">Small Business Certificate *</option></select></div>
+<option value="tfa_1057" id="tfa_1057" class="">Small Business Certificate </option></select></div>
 </div>
 <div class="oneField field-container-D  labelsAbove  " id="tfa_886-D">
 <label id="tfa_886-L" class="label preField " for="tfa_886">Education Program Interest</label><br><div class="inputWrapper"><select id="tfa_886" name="tfa_886" data-condition="`#tfa_810`" title="Education Program Interest" class=""><option value="">Please select...</option>
@@ -232,28 +229,28 @@ display: none;
 </div>
 <div class="oneField field-container-D  labelsAbove  " id="tfa_901-D">
 <label id="tfa_901-L" class="label preField " for="tfa_901">Industrial and Manufacturing Technologies Program Interest</label><br><div class="inputWrapper"><select id="tfa_901" name="tfa_901" data-condition="`#tfa_811`" title="Industrial and Manufacturing Technologies Program Interest" class=""><option value="">Please select...</option>
-<option value="tfa_1073" id="tfa_1073" class="">Air Conditioning & Refrigeration Certificate</option>
-<option value="tfa_1077" id="tfa_1077" class="">Air Conditioning & Refrigeration: Commercial Refrigeration A.A.S.</option>
-<option value="tfa_1074" id="tfa_1074" class="">Air Conditioning & Refrigeration: Domestic Refrigeration A.A.S.</option>
-<option value="tfa_1075" id="tfa_1075" class="">Air Conditioning & Refrigeration: Domestic Refrigeration Certificate</option>
-<option value="tfa_1078" id="tfa_1078" class="">Air Conditioning & Refrigeration: Energy Audit A.A.S.</option>
-<option value="tfa_1079" id="tfa_1079" class="">Air Conditioning & Refrigeration: Energy Audit Advanced Certificate</option>
-<option value="tfa_1082" id="tfa_1082" class="">Air Conditioning & Refrigeration: Energy Audit Air Flow Certificate *</option>
-<option value="tfa_1083" id="tfa_1083" class="">Air Conditioning & Refrigeration: Energy Audit Certificate</option>
-<option value="tfa_1080" id="tfa_1080" class="">Air Conditioning & Refrigeration: General Technician Certificate *</option>
-<option value="tfa_1081" id="tfa_1081" class="">Air Conditioning & Refrigeration: Heating Systems Certificate *</option>
-<option value="tfa_1076" id="tfa_1076" class="">Air Conditioning & Refrigeration: HVAC/R Service Advanced Certificate</option>
+<option value="tfa_1073" id="tfa_1073" class="">Air Conditioning &amp; Refrigeration Certificate</option>
+<option value="tfa_1077" id="tfa_1077" class="">Air Conditioning &amp; Refrigeration: Commercial Refrigeration A.A.S.</option>
+<option value="tfa_1074" id="tfa_1074" class="">Air Conditioning &amp; Refrigeration: Domestic Refrigeration A.A.S.</option>
+<option value="tfa_1075" id="tfa_1075" class="">Air Conditioning &amp; Refrigeration: Domestic Refrigeration Certificate</option>
+<option value="tfa_1078" id="tfa_1078" class="">Air Conditioning &amp; Refrigeration: Energy Audit A.A.S.</option>
+<option value="tfa_1079" id="tfa_1079" class="">Air Conditioning &amp; Refrigeration: Energy Audit Advanced Certificate</option>
+<option value="tfa_1082" id="tfa_1082" class="">Air Conditioning &amp; Refrigeration: Energy Audit Air Flow Certificate </option>
+<option value="tfa_1083" id="tfa_1083" class="">Air Conditioning &amp; Refrigeration: Energy Audit Certificate</option>
+<option value="tfa_1080" id="tfa_1080" class="">Air Conditioning &amp; Refrigeration: General Technician Certificate </option>
+<option value="tfa_1081" id="tfa_1081" class="">Air Conditioning &amp; Refrigeration: Heating Systems Certificate </option>
+<option value="tfa_1076" id="tfa_1076" class="">Air Conditioning &amp; Refrigeration: HVAC/R Service Advanced Certificate</option>
 <option value="tfa_1084" id="tfa_1084" class="">Automotive Technology A.A.S.</option>
 <option value="tfa_1085" id="tfa_1085" class="">Automotive Technology Certificate</option>
 <option value="tfa_1086" id="tfa_1086" class="">Automotive Technology: Advanced Drivetrains/Powertrains Certificate</option>
-<option value="tfa_1087" id="tfa_1087" class="">Automotive Technology: Automotive Heating & Air Conditioning Certificate *</option>
-<option value="tfa_1088" id="tfa_1088" class="">Automotive Technology: Brakes & Alignment Certificate *</option>
-<option value="tfa_1089" id="tfa_1089" class="">Automotive Technology: Drivelines Certificate *</option>
+<option value="tfa_1087" id="tfa_1087" class="">Automotive Technology: Automotive Heating &amp; Air Conditioning Certificate </option>
+<option value="tfa_1088" id="tfa_1088" class="">Automotive Technology: Brakes &amp; Alignment Certificate </option>
+<option value="tfa_1089" id="tfa_1089" class="">Automotive Technology: Drivelines Certificate </option>
 <option value="tfa_1090" id="tfa_1090" class="">Aviation A.A. (Transfer)</option>
 <option value="tfa_1110" id="tfa_1110" class="">Basic Manufacturing Industrial Maintenance Certificate</option>
 <option value="tfa_1117" id="tfa_1117" class="">Basic Manufacturing Machine Tool Certificate</option>
 <option value="tfa_1122" id="tfa_1122" class="">Basic Manufacturing TWDL Certificate</option>
-<option value="tfa_1128" id="tfa_1128" class="">Basic Manufacturing: Welding Certificate *</option>
+<option value="tfa_1128" id="tfa_1128" class="">Basic Manufacturing: Welding Certificate </option>
 <option value="tfa_1101" id="tfa_1101" class="">Electrical Technology: Electronic Technician Certificate</option>
 <option value="tfa_1103" id="tfa_1103" class="">Electrical Technology: Entry-Level, Small-Wind Energy Technology Certificate</option>
 <option value="tfa_1104" id="tfa_1104" class="">Electrical Technology: Entry-Level, Solar-PV Technology Certificate</option>
@@ -263,11 +260,11 @@ display: none;
 <option value="tfa_1093" id="tfa_1093" class="">Electrical Technology: Industrial Instrumentation and Process Control A.A.S.</option>
 <option value="tfa_1094" id="tfa_1094" class="">Electrical Technology: Industrial Instrumentation and Process Control Advanced Certificate</option>
 <option value="tfa_1095" id="tfa_1095" class="">Electrical Technology: Industrial Machinery Maintenance A.A.S.</option>
-<option value="tfa_1097" id="tfa_1097" class="">Electrical Technology: Industrial Motor Control Certificate *</option>
-<option value="tfa_1098" id="tfa_1098" class="">Electrical Technology: Pneumatic and Hydraulic Power Certificate *</option>
-<option value="tfa_1099" id="tfa_1099" class="">Electrical Technology: Programmable Logic Controllers Certificate *</option>
+<option value="tfa_1097" id="tfa_1097" class="">Electrical Technology: Industrial Motor Control Certificate </option>
+<option value="tfa_1098" id="tfa_1098" class="">Electrical Technology: Pneumatic and Hydraulic Power Certificate </option>
+<option value="tfa_1099" id="tfa_1099" class="">Electrical Technology: Programmable Logic Controllers Certificate </option>
 <option value="tfa_1096" id="tfa_1096" class="">Electrical Technology: Renewable Energy Technology A.A.S.</option>
-<option value="tfa_1100" id="tfa_1100" class="">Electrical Technology: Residential & Industrial Wiring Certificate *</option>
+<option value="tfa_1100" id="tfa_1100" class="">Electrical Technology: Residential &amp; Industrial Wiring Certificate </option>
 <option value="tfa_1139" id="tfa_1139" class="">Global Supply Chain Certificate</option>
 <option value="tfa_1107" id="tfa_1107" class="">Intermediate Manufacturing Industrial Maintenance Certificate</option>
 <option value="tfa_1114" id="tfa_1114" class="">Intermediate Manufacturing Machine Tool Certificate</option>
@@ -290,15 +287,15 @@ display: none;
 <option value="tfa_1126" id="tfa_1126" class="">Manufacturing: Welding I Certificate</option>
 <option value="tfa_1127" id="tfa_1127" class="">Manufacturing: Welding II Advanced Certificate</option>
 <option value="tfa_1129" id="tfa_1129" class="">Millwright Advanced Certificate</option>
-<option value="tfa_1137" id="tfa_1137" class="">Supply Chain Management Certificate *</option>
-<option value="tfa_1138" id="tfa_1138" class="">Sustainable Resource Management Certificate *</option>
-<option value="tfa_1130" id="tfa_1130" class="">Tower Construction & Maintenance Certificate *</option>
+<option value="tfa_1137" id="tfa_1137" class="">Supply Chain Management Certificate </option>
+<option value="tfa_1138" id="tfa_1138" class="">Sustainable Resource Management Certificate </option>
+<option value="tfa_1130" id="tfa_1130" class="">Tower Construction &amp; Maintenance Certificate </option>
 <option value="tfa_1131" id="tfa_1131" class="">Welding Technology A.A.S.</option>
 <option value="tfa_1132" id="tfa_1132" class="">Welding Technology Advanced Certificate</option>
-<option value="tfa_1136" id="tfa_1136" class="">Welding: Maintenance Welding Certificate *</option>
-<option value="tfa_1135" id="tfa_1135" class="">Welding: Pipe Welding Certificate *</option>
-<option value="tfa_1133" id="tfa_1133" class="">Welding: Shielded Metal-Arc Welding All Positions Certificate *</option>
-<option value="tfa_1134" id="tfa_1134" class="">Welding: Tungsten Inert Gas & Metallic Inert Gas Certificate *</option></select></div>
+<option value="tfa_1136" id="tfa_1136" class="">Welding: Maintenance Welding Certificate </option>
+<option value="tfa_1135" id="tfa_1135" class="">Welding: Pipe Welding Certificate </option>
+<option value="tfa_1133" id="tfa_1133" class="">Welding: Shielded Metal-Arc Welding All Positions Certificate </option>
+<option value="tfa_1134" id="tfa_1134" class="">Welding: Tungsten Inert Gas &amp; Metallic Inert Gas Certificate </option></select></div>
 </div>
 <div class="oneField field-container-D  labelsAbove  " id="tfa_968-D">
 <label id="tfa_968-L" class="label preField " for="tfa_968">Computer Technology Program Interest</label><br><div class="inputWrapper"><select id="tfa_968" name="tfa_968" data-condition="`#tfa_1165`" title="Computer Technology Program Interest" class=""><option value="">Please select...</option>
@@ -312,7 +309,7 @@ display: none;
 <option value="tfa_1145" id="tfa_1145" class="">Computer Graphic Technology: Graphic Design Specialization A.A.S.</option>
 <option value="tfa_1146" id="tfa_1146" class="">Computer Graphic Technology: Graphic Design Specialization Certificate I</option>
 <option value="tfa_1147" id="tfa_1147" class="">Computer Graphic Technology: Graphic Design Specialization Certificate II</option>
-<option value="tfa_1140" id="tfa_1140" class="">Microsoft Office Suite Applications Certificate *</option></select></div>
+<option value="tfa_1140" id="tfa_1140" class="">Microsoft Office Suite Applications Certificate </option></select></div>
 </div>
 <div class="oneField field-container-D  labelsAbove  " id="tfa_992-D">
 <label id="tfa_992-L" class="label preField " for="tfa_992">General Program Interest</label><br><div class="inputWrapper"><select id="tfa_992" name="tfa_992" data-condition="`#tfa_814`" title="General Program Interest" class=""><option value="">Please select...</option>
@@ -322,17 +319,17 @@ display: none;
 </div>
 <div class="oneField field-container-D  labelsAbove  " id="tfa_980-D">
 <label id="tfa_980-L" class="label preField " for="tfa_980">Law Enforcement/Legal Studies Program Interest</label><br><div class="inputWrapper"><select id="tfa_980" name="tfa_980" data-condition="`#tfa_813`" title="Law Enforcement/Legal Studies Program Interest" class=""><option value="">Please select...</option>
-<option value="tfa_1154" id="tfa_1154" class="">Basic Law Enforcement Principles Certificate *</option>
-<option value="tfa_1157" id="tfa_1157" class="">Crime, Criminals & Corrections Certificate *</option>
+<option value="tfa_1154" id="tfa_1154" class="">Basic Law Enforcement Principles Certificate </option>
+<option value="tfa_1157" id="tfa_1157" class="">Crime, Criminals &amp; Corrections Certificate </option>
 <option value="tfa_1151" id="tfa_1151" class="">Criminal Justice A.A. (Transfer)</option>
-<option value="tfa_1158" id="tfa_1158" class="">Investigation & Organization Certificate *</option>
+<option value="tfa_1158" id="tfa_1158" class="">Investigation &amp; Organization Certificate </option>
 <option value="tfa_1152" id="tfa_1152" class="">Law Enforcement A.A.S.</option>
 <option value="tfa_1153" id="tfa_1153" class="">Law Enforcement Advanced Certificate</option>
-<option value="tfa_1155" id="tfa_1155" class="">Laws & Evidentiary Procedures Certificate *</option>
+<option value="tfa_1155" id="tfa_1155" class="">Laws &amp; Evidentiary Procedures Certificate </option>
 <option value="tfa_1160" id="tfa_1160" class="">Paralegal/Legal Assistant Studies A.A.S.</option>
 <option value="tfa_1161" id="tfa_1161" class="">Paralegal/Legal Assistant Studies Advanced Certificate</option>
-<option value="tfa_1159" id="tfa_1159" class="">Private Security Certificate *</option>
-<option value="tfa_1156" id="tfa_1156" class="">Relationships & Juveniles Certificate *</option></select></div>
+<option value="tfa_1159" id="tfa_1159" class="">Private Security Certificate </option>
+<option value="tfa_1156" id="tfa_1156" class="">Relationships &amp; Juveniles Certificate </option></select></div>
 </div>
 </div>
 <div id="tfa_1188" class="section inline group">
@@ -353,11 +350,11 @@ display: none;
 </div>
 </div>
 <div class="oneField field-container-D  labelsAbove  " id="tfa_381-D">
-<label id="tfa_381-L" class="label preField " for="tfa_381"><span id="j_id0:j_id6"><span id="j_id0:j_id6:j_id7:j_id45"><span id="j_id0:j_id6:j_id7:form:j_id50:28:j_id59"><span id="LaDescription" title="">Comments, questions, or requests  </span></span></span></span></label><br><div class="inputWrapper"><textarea id="tfa_381" name="tfa_381" title="Comments, questions, or requests " class=""></textarea></div>
+<label id="tfa_381-L" class="label preField " for="tfa_381"><span id="j_id0:j_id6"><span id="j_id0:j_id6:j_id7:j_id45"><span id="j_id0:j_id6:j_id7:form:j_id50:28:j_id59"><span title="" id="LaDescription">Comments, questions, or requests  </span></span></span></span></label><br><div class="inputWrapper"><textarea id="tfa_381" name="tfa_381" title="Comments, questions, or requests " class=""></textarea></div>
 </div>
 <input type="hidden" id="tfa_383" name="tfa_383" value="FormAssembly" class=""><div class="actions" id="217758-A"><input type="submit" data-label="GET STARTED" class="primaryAction" id="submit_button" value="GET STARTED"></div>
 <div style="clear:both"></div>
-<input type="hidden" value="217758" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="7711826facfff97864e85f27f7359829" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="" name="tfa_dbWorkflowSessionUuid" id="tfa_dbWorkflowSessionUuid"><input type="hidden" value="28" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
+<input type="hidden" value="217758" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="7711826facfff97864e85f27f7359829" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="" name="tfa_dbWorkflowSessionUuid" id="tfa_dbWorkflowSessionUuid"><input type="hidden" value="29" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
 </form>
 </div></div><div class="wFormFooter"><p class="supportInfo"><a target="new" class="contactInfoLink" href="https://kcc.tfaforms.net/forms/help/217741" data-testid="contact-info-link">Contact Information</a><br></p></div>
 <p class="supportInfo" >
