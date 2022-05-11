@@ -83,12 +83,13 @@
 <div class="oneField field-container-D  labelsRemoved  " id="tfa_374-D">
 <div class="inputWrapper"><input type="text" id="tfa_374" name="tfa_374" value="" placeholder="Phone" autoformat="(###) ###-####" title="Phone " class="validate-custom /^([\(]{1}[0-9]{3}[\)]{1}[\.| |\-]{0,1}|^[0-9]{3}[\.|\-| ]?)?[0-9]{3}(\.|\-| )?[0-9]{4}$/"></div>
 <script type="text/javascript">
-                      if(typeof wFORMS != 'undefined') {
-                          if(wFORMS.behaviors.validation) {
-                              wFORMS.behaviors.validation.rules['customtfa_374'] =  { selector: '*[id="tfa_374"]', check: 'validateCustom'};
-                              wFORMS.behaviors.validation.messages['customtfa_374'] = "Please enter a US Phone number";
-                          }
-                      }</script>
+  if(typeof wFORMS != 'undefined') {
+    if(wFORMS.behaviors.validation) {
+      wFORMS.behaviors.validation.rules['customtfa_374'] =  { selector: '*[id="tfa_374"]', check: 'validateCustom'};
+      wFORMS.behaviors.validation.messages['customtfa_374'] = "Please enter a US Phone number";
+    }
+  }
+</script>
 </div>
 <div class="oneField field-container-D    " id="tfa_749-D" role="radiogroup" aria-labelledby="tfa_749-L" data-tfa-labelledby="-L tfa_749-L">
 <label id="tfa_749-L" class="label preField ">Is it okay to text you?</label><div class="inputWrapper"><span id="tfa_749" class="choices horizontal "><span class="oneChoice"><input type="radio" value="tfa_750" class="" id="tfa_750" name="tfa_749" aria-labelledby="tfa_750-L" data-tfa-labelledby="tfa_749-L tfa_750-L"><label class="label postField" id="tfa_750-L" for="tfa_750"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_751" class="" id="tfa_751" name="tfa_749" aria-labelledby="tfa_751-L" data-tfa-labelledby="tfa_749-L tfa_751-L"><label class="label postField" id="tfa_751-L" for="tfa_751"><span class="input-radio-faux"></span>No</label></span></span></div>
