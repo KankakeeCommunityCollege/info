@@ -6,7 +6,7 @@ theme: landing-page-gem
 timezone: America/Chicago
 google-tag_key: GTM-PPXHLQ3
 humans_file: true
-custom_site_js: false
+custom_site_js: true
 custom_site_styling: true
 # contact_phone: 815-802-8508 ## Uncomment to override default phone no. of 815-802-8500
 permalink: pretty
