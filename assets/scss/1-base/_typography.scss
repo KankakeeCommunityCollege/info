@@ -2,6 +2,12 @@
 // If you use a class-name found in the landing-page-gem this stylesheet
 // will override the theme's rules.
 
+@media screen and (min-width: 576px) {
+  .typography__register--h2 {
+    font-size: 3rem;
+  }
+}
+
 // Adjusts the landing-page-gem heading size for medium+ size screens
 @media screen and (min-width: 768px) {
   .typography__register--h2 {
