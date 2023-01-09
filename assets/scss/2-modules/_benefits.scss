@@ -1,0 +1,23 @@
+// ================================================================= //
+// Overrides to the landing-page-gem's "benefits" SASS module          //
+// ================================================================= //
+
+// Adds oversized quotes surrounding student quotation
+.benefits__typography--student-p {
+  position: relative;
+  &::before,
+  &::after {
+    color: $color-grey-quotes;
+    position: absolute;
+    transform: scale(1.75);
+  }
+  &::before {
+    content: '\201C';
+    left: -0.75rem;
+  }
+  &::after {
+    content: '\201D';
+    margin-left: 0.5rem;
+  }
+}
+
