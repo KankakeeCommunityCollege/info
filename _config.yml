@@ -5,6 +5,7 @@ port: 3000
 theme: landing-page-gem
 timezone: America/Chicago
 google-tag_key: GTM-PPXHLQ3
+# BUILD
 humans_file: true
 custom_site_js: true
 custom_site_styling: true
