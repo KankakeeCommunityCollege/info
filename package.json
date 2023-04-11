@@ -27,10 +27,7 @@
     ]
   },
   "browserslist": [
-    "defaults",
-    "ie >=11",
-    "not ie <= 8",
-    "not ie_mob <= 8"
+    "defaults"
   ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",
