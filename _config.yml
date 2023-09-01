@@ -2,6 +2,7 @@ title: "Kankakee Community College"
 url: https://info.kcc.edu
 public-url: https://info.kcc.edu
 port: 3000
+# BUILD
 theme: landing-page-gem
 timezone: America/Chicago
 google-tag_key: GTM-PPXHLQ3
