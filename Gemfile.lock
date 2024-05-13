@@ -39,7 +39,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    landing-page-gem (0.17.1)
+    landing-page-gem (1.0.2)
       jekyll (~> 4)
     liquid (4.0.4)
     listen (3.8.0)
@@ -67,7 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4)
-  landing-page-gem (~> 0)
+  landing-page-gem (~> 1)
 
 BUNDLED WITH
    2.4.19
