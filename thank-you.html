@@ -3,6 +3,7 @@ layout: landing
 baseurl: '../'
 title: Thank You
 description: ''
+include_eurostile_font: true
 thank-you_main-heading: 'Thank you for your interest in&nbsp;KCC!'
 thank-you_secondary-heading: 'You’ll receive an automatic email, and then a personalized reply within three business&nbsp;days.'
 ---
@@ -11,9 +12,13 @@ thank-you_secondary-heading: 'You’ll receive an automatic email, and then a pe
   <div class="row">
     <div class="col">
       {% include breadcrumbs.html %}
-      <div class="jumbotron text-center text-md-left" style="margin-top:45px">
-        {% include svg/check-mark.html %}&nbsp;<h3 class="typography__register--thank-you text-left">{{ page.thank-you_main-heading }}</h3>
-        <h6 class="typography__register--thank-you--message text-left" style="padding-left:1rem">{{ page.thank-you_secondary-heading }}</h6>
+      <div class="border rounded bg-secondary-subtle py-5 px-3 px-sm-4 px-md-5 my-5 text-center text-md-start">
+        {% include svg/check-mark.html %}&nbsp;<h3 class="typography__register--thank-you text-center text-md-start">
+          {{ page.thank-you_main-heading }}
+        </h3>
+        <h6 class="typography__register--thank-you--message text-start ps-3">
+          {{ page.thank-you_secondary-heading }}
+        </h6>
       </div>
     </div>
   </div>
