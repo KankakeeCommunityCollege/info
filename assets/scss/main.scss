@@ -1,42 +1,42 @@
-// Variables
-@import '0-tools/vars';
+// Tools
+
 
 // Base items
-// @import '1-base/typography';
-@import '1-base/svg';
-// @import '1-base/links';
-// @import '1-base/buttons';
-// @import '1-base/borders';
+// @use '1-base/typography';
+@use '1-base/svg';
+// @use '1-base/links';
+// @use '1-base/buttons';
+// @use '1-base/borders';
 
 // Modular components
-@import '2-modules/benefits';
-// @import '2-modules/header';
-// @import '2-modules/sliders';
-// @import '2-modules/latest-news-widget';
-// @import '2-modules/local-nav';
-// @import '2-modules/events';
-// @import '2-modules/fb-widget';
-// @import '2-modules/featured-videos';
-// @import '2-modules/timeline';
-// @import '2-modules/social-icons';
-// @import '2-modules/footer';
-// @import '2-modules/global-nav';
-// @import '2-modules/playlist';
-// @import '2-modules/archive';
-// @import '2-modules/bios';
-// @import '2-modules/error';
-// @import '2-modules/accredited';
+@use '2-modules/benefits';
+// @use '2-modules/header';
+// @use '2-modules/sliders';
+// @use '2-modules/latest-news-widget';
+// @use '2-modules/local-nav';
+// @use '2-modules/events';
+// @use '2-modules/fb-widget';
+// @use '2-modules/featured-videos';
+// @use '2-modules/timeline';
+// @use '2-modules/social-icons';
+// @use '2-modules/footer';
+// @use '2-modules/global-nav';
+// @use '2-modules/playlist';
+// @use '2-modules/archive';
+// @use '2-modules/bios';
+// @use '2-modules/error';
+// @use '2-modules/accredited';
 
 // Layout items
-// @import "3-layout/...";
-@import '3-layout/positioning';
-// @import '3-layout/posts';
-@import '3-layout/targetx';
-// @import '3-layout/thank-you';
+// @use "3-layout/...";
+@use '3-layout/positioning';
+// @use '3-layout/posts';
+@use '3-layout/targetx';
+// @use '3-layout/thank-you';
 
 // Page specific styling
-// @import "4-pages/...";
-// @import '4-pages/index/home';
+// @use "4-pages/...";
+// @use '4-pages/index/home';
 
 // Internet Exploder fixes
-// @import '0-tools/ie-only';
+// @use '0-tools/ie-only';
