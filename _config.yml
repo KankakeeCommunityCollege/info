@@ -42,5 +42,8 @@ exclude:
   - "webpack.config.js"
   - "buildtools/"
   - "postcss.config.js"
+  - "pa11y.sh"
+  - "pa11y.*.json"
+  - "pa11y-log.*.txt"
 
 uploads_dir: "uploads/" # specifies the default uploads directory for CloudCannon
