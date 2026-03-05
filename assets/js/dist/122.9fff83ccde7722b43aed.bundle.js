@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinfo=self.webpackChunkinfo||[]).push([[122],{122:function(t,e){const n=document.getElementById("targetx-form");e.default=function(){if(!n)return;let t=n.getAttribute("data-src");const e=new URLSearchParams(window.location.search).get("utm_campaign");e&&(t+="&txf1="+encodeURIComponent(e)),n.src=t}}}]);
