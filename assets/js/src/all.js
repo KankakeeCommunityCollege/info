@@ -1,7 +1,7 @@
 import '../../scss/main.scss';
 
-// window.addEventListener('load', async () => {
-//   const { default: test } = await import('./test');
+window.addEventListener('load', async () => {
+  const { default: loadTargetXIframe } = await import('./loadTargetXIframe');
 
-//   test();
-// });
+  loadTargetXIframe();
+});
