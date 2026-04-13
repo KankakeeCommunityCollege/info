@@ -16,7 +16,7 @@ function loadTargetXIframe() {
       // TargetX URLs often use '#' for routing, so we ensure the param 
       // is added correctly. Most TX forms accept params after the '#'
       // (i.e. normally URL params go before the '#' in a URL but that would break the TX form routing)
-      baseUrl += "&txf1=" + encodeURIComponent(campaignValue);
+      baseUrl += "&txf1=" + encodeURIComponent(campaignValue); //txf1 targets a hidden form field with auto-fill enabled.
   }
 
   // 5. Set the final src to trigger the iframe load
