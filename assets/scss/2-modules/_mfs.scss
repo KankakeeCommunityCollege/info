@@ -1,0 +1,69 @@
+/**
+ * 
+ * CSS hack to force MFS code snippets to be accessible an not violate WCAG 2.1 AA
+ * The snippet they provided had a link with no text containing an image with no alt-text
+ *
+ */
+
+// These commented-out styles should be used if they fix their code by adding alt-text or
+//  allow us an exemption to (modify their snippet and) add alt-text
+//  Force the image element to stay within it's parent. Otherwise the logos overflow the page:
+// /* This targets the <img> tag inside your div without changing the snippet code */
+// .mfs-container img {
+//   max-width: 100% !important;
+//   height: auto !important;
+//   display: block;
+// }
+
+// /* This controls the actual size on your page */
+// .mfs-container {
+//   width: 300px;
+//   overflow: hidden;
+//   /* Prevents the "overflow" behavior if the browser struggles */
+// }
+
+// These styles are live and should be removed if they fix their code snippets or allow us an exemption:
+.mfs-access-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  /* Controls the 'massive' image size */
+}
+
+/* Forces the vendor image to fit the column */
+.mfs-vendor-shield img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Use visibility: hidden on the internal link to kill its tab-index 
+   without hiding the image inside it. */
+.mfs-vendor-shield a {
+  pointer-events: none; /* This is the key: it makes the vendor's broken link un-tabbable and un-clickable */
+  visibility: hidden;
+}
+
+.mfs-vendor-shield img {
+  visibility: visible;
+}
+
+/* The Overlay: This is the ONLY thing a screen reader or keyboard user sees */
+.mfs-overlay-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: block;
+  text-decoration: none;
+}
+
+/* Ensure the overlay shows a focus ring for keyboard users */
+.mfs-overlay-link:focus {
+  outline: 2px solid #0056b3;
+  outline-offset: 4px;
+}
