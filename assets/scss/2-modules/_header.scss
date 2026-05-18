@@ -1,17 +1,54 @@
+@use '../0-tools/vars' as *;
 // Header styles
 // ==========================================
 
-.header__bg {
-  background-image: url('/uploads/banner-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 55%;
-  height: 55vh;
+// .header__bg {
+//   background-image: url('/uploads/banner-bg.jpg');
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   height: 55%;
+//   height: 55vh;
+// }
+
+// @media screen and (min-width: 1200px) {
+//   .header__bg {
+//     height: auto;
+//   }
+// }
+
+
+.header__h2 {
+  position: relative;
+  display: inline-block;
+  /* 1. Set dimensions based on the graphic's aspect ratio */
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  margin: 0;
 }
 
-@media screen and (min-width: 1200px) {
-  .header__bg {
-    height: auto;
-  }
+.header__fallback-text {
+  /* Position this behind the image */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+  /* Style it to look decent if the image fails */
+  font-family: $secondaryfont-stack;
+  font-weight: 900;
+  // font-size: 2rem;
+  font-size: clamp(1.5rem, 5vw, 3rem); /* Responsive font size! */
+}
+
+.header__img {
+  position: relative;
+  z-index: 2;
+  /* Sits on top of the text */
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  /* Matches page background to hide text behind it */
 }
