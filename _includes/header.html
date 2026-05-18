@@ -1,51 +1,48 @@
-{% comment %}
-<!-- Move this file into `_includes` to override the theme's header.html -->
-{% endcomment %}
 <header id="content">
-    <div class="container-fluid">
-      <div class="row">
-        {% comment %}
-        <!-- Use this code when the hero banner can ideally be a background image + inline SVG in a heading element. -->
-        <div class="col-xl-8 header__bg positioning__offset-global-nav" {% if page.background_image %}style="background-image: url('{{ page.background_image }}');"{% endif %}>
-          <div class="row positioning__heading--row">
-            <div class="col-7 offset-5 col-md-6 offset-md-6 positioning__col--offset text-center">
-              <h2>
-                {% include svg/get-ahead_get-started-at-kcc.html %}
-              </h2>
-            </div>
+  <div class="container-fluid">
+    <div class="row">
+      {% comment %}
+      <!-- Use this code when the hero banner can ideally be a background image + inline SVG in a heading element. -->
+      <div class="col-xl-8 header__bg positioning__offset-global-nav" {% if page.background_image %}style="background-image: url('{{ page.background_image }}');"{% endif %}>
+        <div class="row positioning__heading--row">
+          <div class="col-7 offset-5 col-md-6 offset-md-6 positioning__col--offset text-center">
+            <h2>
+              {% include svg/get-ahead_get-started-at-kcc.html %}
+            </h2>
           </div>
-          <span class="typography__register--caption typography--text-shadow">Adrian Benfield, Class of 2017</span>
         </div>
-        {% endcomment %}
+        <span class="typography__register--caption typography--text-shadow">Adrian Benfield, Class of 2017</span>
+      </div>
+      {% endcomment %}
 
-        <div class="col-xl-8 px-0 positioning__offset-global-nav">
-          <h2 class="header__h2">
-            <span class="header__fallback-text" aria-hidden="true">Big dreams, small tuition, that's our&nbsp;thing.</span>
-            <img
-              src="{{ page.baseurl }}uploads/trad-big-dreams-website-hero-image-spr-26-with-text.jpg"
-              class="header__img img-fluid w-100"
-              alt="Big dreams, small tuition, that's our thing.">
-          </h2>
-        </div>
+      <div class="col-xl-8 px-0 positioning__offset-global-nav">
+        <h2 id="hero" class="header__h2">
+          <span class="header__fallback-text" aria-hidden="true">Big dreams, small tuition, that's our&nbsp;thing.</span>
+          <img
+            src="{{ page.baseurl }}uploads/trad-big-dreams-website-hero-image-spr-26-with-text.jpg"
+            class="header__img img-fluid w-100"
+            alt="Big dreams, small tuition, that's our thing.">
+        </h2>
+      </div>
 
-        <div class="col-xl-4 positioning__form--margins">
-          <h4 id="page-top" class="typography__register-h4 text-center">{{ page.form_heading }}</h4>
-          {%- comment -%}
-          <!--
-            <h5 class="typography__register-h5 text-center">Classes Begin Jan. 7th</h5>
-          <h5 class="typography__register-h5 text-center">Seats Are Filling Fast</h5>
-          -->
-          {%- endcomment -%}
-          <div class="positioning--max-width-700">
-            <iframe
-              id="targetx-form"
-              data-src="https://kccedu.my.salesforce-sites.com/Inquiry/TargetX_Base__InquiryForm#?formId=a0OUe0000002vS1MAI&formType=general&isEmbed=true"
-              title="KCC Information Request form"
-              width="100%"
-              height="650px"
-            ></iframe>
-          </div>
+      <div class="col-xl-4 positioning__form--margins">
+        <h4 id="page-top" class="typography__register-h4 text-center">{{ page.form_heading }}</h4>
+        {%- comment -%}
+        <!--
+          <h5 class="typography__register-h5 text-center">Classes Begin Jan. 7th</h5>
+        <h5 class="typography__register-h5 text-center">Seats Are Filling Fast</h5>
+        -->
+        {%- endcomment -%}
+        <div class="positioning--max-width-700">
+          <iframe
+            id="targetx-form"
+            data-src="https://kccedu.my.salesforce-sites.com/Inquiry/TargetX_Base__InquiryForm#?formId=a0OUe0000002vS1MAI&formType=general&isEmbed=true"
+            title="KCC Information Request form"
+            width="100%"
+            height="930px"
+          ></iframe>
         </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>

@@ -5,3 +5,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   loadTargetXIframe();
 });
+
+window.addEventListener('load', async () => {
+  
+  if (
+    document.getElementById('targetx-form') &&
+    document.getElementById('hero')
+  ) {
+    const { default: adjustIframeHeight } = await import('./adjustIframeHeight');
+
+    adjustIframeHeight();
+  }
+})
