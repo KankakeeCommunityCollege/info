@@ -82,7 +82,7 @@ GEM
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    landing-page-gem (2.0.0)
+    landing-page-gem (2.0.1)
       jekyll (~> 4)
     liquid (4.0.4)
     listen (3.10.0)
@@ -201,7 +201,7 @@ CHECKSUMS
   json (2.19.5) sha256=218a18553e4801d579ca7e0f5bc72bafd776d7397238a1fb4e74db5b0a812c59
   kramdown (2.5.2) sha256=1ba542204c66b6f9111ff00dcc26075b95b220b07f2905d8261740c82f7f02fa
   kramdown-parser-gfm (1.1.0) sha256=fb39745516427d2988543bf01fc4cf0ab1149476382393e0e9c48592f6581729
-  landing-page-gem (2.0.0) sha256=855a2025d33be667b58b95ce070cfe790b47618ee0548dbd1a10d4f2d5a91081
+  landing-page-gem (2.0.1) sha256=169490b58b91075bfc2ba0ed6a8e9cc36d1750fc588600f62c41f617bb444abf
   liquid (4.0.4) sha256=4fcfebb1a045e47918388dbb7a0925e7c3893e58d2bd6c3b3c73ec17a2d8fdb3
   listen (3.10.0) sha256=c6e182db62143aeccc2e1960033bebe7445309c7272061979bb098d03760c9d2
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
