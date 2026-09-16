@@ -66,5 +66,9 @@
       ]
     },
     "browserslist": "Sets compatibility for JS polyfilling and CSS autoprefixing. IF YOU CHANGE BROWSERLIST SETTINGS, you must kill the build if its running (control + c), and restart the build to see changes!"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "core-js@3.50.0": true
   }
 }
